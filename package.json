@@ -1,0 +1,43 @@
+{
+  "name": "mern-setup-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to quickly set up MERN stack applications with interactive prompts",
+  "main": "index.js",
+  "bin": {
+    "mern-setup": "./bin/mern-setup.js"
+  },
+  "scripts": {
+    "start": "node bin/mern-setup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mern",
+    "cli",
+    "setup",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs"
+  ],
+  "author": "MERN Setup CLI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "boxen": "^8.0.1",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "execa": "^5.1.1",
+    "figlet": "^1.8.2",
+    "fs-extra": "^11.1.1",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^9.2.12",
+    "log-symbols": "^7.0.1",
+    "ora": "^5.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
